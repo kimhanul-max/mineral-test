@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    margin-top: 0%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.startBtn{
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    background-color: #8ac6d1;
+    color: white;
+    width: 150px;
+    height: 45px;
+    display :inline-block;
+    margin-top: 650px;
+}
+.btn-wrap{
+    text-align: center;
+}
+.div{
+    display: none;
+}
