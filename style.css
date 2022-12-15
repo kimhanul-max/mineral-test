@@ -1,23 +1,52 @@
 h1{
+    color: #8ac6d1;
     text-align: center;
     margin-top: 0%;
     padding: 10px;
     border-bottom: 1px solid black;
 }
+.sub-title{
+    text-align: center;
+}
+button:hover{
+    background-color: #8ac6d1;
+}
 .startBtn{
     border-radius: 20px;
     box-shadow: none;
     border: none;
-    background-color: #8ac6d1;
+    background-color: 	#C0C0C0;
     color: white;
-    width: 150px;
-    height: 45px;
+    width: 250px;
+    height: 90px;
     display :inline-block;
-    margin-top: 650px;
+    margin-top: 550px;
 }
 .btn-wrap{
     text-align: center;
 }
 .div{
     display: none;
+}
+.inputBtn{
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    background-color: #C0C0C0;
+    color: white;
+    width: 280px;
+    height: 120px;
+    font-size: 25px;
+}
+.name{
+    text-align: center;
+}
+.img-wrap{
+    text-align: center;
+}
+.img{
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    display :inline-block;
 }

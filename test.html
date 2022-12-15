@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>광물 심리테스트</title>
+    <title>광물 테스트</title>
 </head>
-    <h1>광물 심리테스트</h1>
+    <h1>광물 테스트</h1>
     <body>
         <div class="qcontainer">
-            <!--검정 < 파랑 < 초록 < 빨강 < 하양 -->
+            <!-- 철: 매우유연하다, 금: 모난 곳 없이 높은 인기 부의 상징, 은: 높은 항균성 주변에 독에 의해 변하기 쉬움, 백금: 금보다 단단하고 희귀하고 비싸다 다루기 어려움, 다이아몬드: 높은 강도-->
             <div class="q1">
                 <h3>1. 나는 스트레스를 잘 받는다.<h3>
-                <p>네 <input type="radio" name="inputBtn" onclick="flex == 0 ? flex += 1 : flex += 0"></p>
-                <p>아니요 <input type="radio" name="inputBtn" onclick="str == 0 ? str += 1 : str += 0"></p>
+                <p><button class="inputBtn" onclick="flex += 1"> 네 </button></p>
+                <p><button class="inputBtn" onclick="str += 1"> 아니요 </button></p>
             </div>
             <div class="q2 div">
-                <h3>1. 스트레스를 받을 때 나는 주로</h3>
-                <p>운동같이 활동적인 것을 하며 스트레스를 푼다. <input type="radio" name="inputBtn" onclick="flex == 0 ? flex += 1 : flex += 0"></p>
-                <p>유튜브를 보거나 sns를 하는 등 그냥 쉰다. <input type="radio" name="inputBtn" onclick="str == 0 ? str += 1 : str += 0"></p>
+                <h3>2. 스트레스를 받을 때 나는 주로</h3>
+                <p><button class="inputBtn" onclick="flex += 1">운동같이 활동적인 것을 하며 스트레스를 푼다. </button></p>
+                <p><button class="inputBtn" onclick="str += 1">유튜브를 보거나 sns를 하는 등 그냥 쉰다. </button></p>
             </div>
         </div>
-        <button id="이전"> < </button>
-        <button id="다음"> > </button>
     </body>
     <script src="code.js"></script>
 </html>
